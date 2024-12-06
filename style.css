@@ -49,14 +49,14 @@
   align-items: center;
   margin-top: 88px;
 }
-.main-helloblock-info-h {
+.main-helloblock-info h1 {
   font-family: Rubik, sans-serif;
   font-weight: 500;
-  font-size: 50px;
-  line-height: 140%;
+  font-size: 35px;
+  line-height: 143%;
   color: #0b132a;
 }
-.main-helloblock-info-p {
+.main-helloblock-info h2 {
   font-family: Rubik, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -119,4 +119,172 @@
   color: #4f5665;
   margin-top: 5px;
   margin-bottom: 0;
+}
+
+.main-functionality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 96px;
+  gap: 169px;
+}
+.main-functionality-info h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  color: #0b132a;
+}
+.main-functionality-info h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  color: #4f5665;
+}
+.main-functionality ul {
+  padding: 0;
+}
+.main-functionality ul li {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  color: #4f5665;
+  list-style: none;
+}
+.main-functionality ul li::before {
+  content: url(assets/marker.svg);
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.main-planblock {
+  margin-top: 96px;
+}
+.main-planblock h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  color: #0b132a;
+  text-align: center;
+}
+.main-planblock h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  color: #4f5665;
+  text-align: center;
+}
+.main-planblock-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  align-items: center;
+  margin-top: 60px;
+}
+.main-planblock-grid-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 330px;
+  height: 760px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.main-planblock-grid-card h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: #0b132a;
+}
+.main-planblock-grid-card ul {
+  padding: 0;
+}
+.main-planblock-grid-card ul li {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  color: #4f5665;
+  list-style: none;
+}
+.main-planblock-grid-card ul li::before {
+  content: url(assets/swoosh.svg);
+  vertical-align: top;
+  margin-right: 20px;
+}
+.main-planblock-grid-card h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+  color: #0b132a;
+}
+.main-planblock-grid-card button {
+  border: 2px solid #f53838;
+  border-radius: 50px;
+  width: 177px;
+  height: 45px;
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f53838;
+  background: none;
+}
+
+.main-mapblock {
+  margin-top: 150px;
+}
+.main-mapblock h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  color: #0b132a;
+  text-align: center;
+}
+.main-mapblock h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  color: #4f5665;
+  text-align: center;
+}
+.main-mapblock-gmap {
+  margin-top: 155px;
+  transform: translate(10%);
+}
+
+.main-sponsored {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.main-feedbackblock h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  color: #0b132a;
+  text-align: center;
+}
+.main-feedbackblock h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  color: #4f5665;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
